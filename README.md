@@ -1,4 +1,4 @@
-# ResumeForge
+# KaynatResume
 
 A React + Vite resume builder with 10 distinct, professionally designed templates, live editing, photo upload, and PNG/PDF export.
 
@@ -33,3 +33,5 @@ npm run preview
 - All resume data is auto-saved to `localStorage` as you type (clears with the "Clear everything" button).
 - Photo upload accepts images up to 4MB, stored as a data URL (no backend needed).
 - Export renders the on-screen resume at 3x scale for crisp print quality.
+
+live on : https://kaynat.onrender.com
