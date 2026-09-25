@@ -1,10 +1,10 @@
 {
-  "name": "KaynalResume",
-  "short_name": "KaynalResume",
+  "name": "KaynatResume",
+  "short_name": "KaynatResume",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0b0f19",
   "theme_color": "#0b0f19",
+  "background_color": "#0b0f19",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
