@@ -127,6 +127,7 @@ export default function App() {
           element, regardless of which tab or zoom level the user is on. */}
       <div
         aria-hidden="true"
+        className="export-wrap"
         style={{ position: "fixed", top: 0, left: "-9999px", zIndex: -1, pointerEvents: "none" }}
       >
         <ResumeDoc data={data} accent={accent} template={template} ref={exportRef} />

@@ -198,7 +198,7 @@ body{
 /* --- T4: Creative Sidebar Right --- */
 .tpl-t4 .grid{ grid-template-columns:1fr 230px; }
 .tpl-t4 .main{ padding:38px 34px; }
-.tpl-t4 .main .name{ font-family:'Sora',sans-serif; font-size:30px; font-weight:800; background:linear-gradient(120deg,var(--a),#8a5cf6); -webkit-background-clip:text; background-clip:text; color:transparent; }
+/*.tpl-t4 .main .name{ font-family:'Sora',sans-serif; font-size:30px; font-weight:800; background:linear-gradient(120deg,var(--a),#8a5cf6); -webkit-background-clip:text; background-clip:text; color:transparent; }*/
 .tpl-t4 .main .headline{ font-size:13px; color:var(--sub-r); margin-top:4px; margin-bottom:20px; }
 .tpl-t4 .side{ background:linear-gradient(180deg,var(--a),#213b34); color:#fff; padding:34px 22px; }
 .tpl-t4 .side h2.stitle{ color:#cfe6dc; }
@@ -287,4 +287,11 @@ body{
   .pane-form.hide-mobile, .pane-preview.hide-mobile{ display:none; }
   .pane-preview{ padding:20px 12px 90px; }
   .resume-page{ width:100%; min-height:auto; }
+}
+
+.tpl-t4 .main .name{ font-family:'Sora',sans-serif; font-size:30px; font-weight:800; color:var(--a); }
+
+.export-wrap, .export-wrap .resume-page{
+  width:794px !important;
+  min-height:1123px !important;
 }
